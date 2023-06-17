@@ -136,7 +136,7 @@
 }
 
 .continue-button{
-  background-image: linear-gradient(hsla(256, 72%, 46%, 0.7), hsla(241, 72%, 46%, 1));
+  background-image: linear-gradient(hsl(224, 30%, 27%), hsl(224, 30%, 27%));
   border-style: none;
   color: #fefefe;
   width: 17rem;
@@ -150,6 +150,7 @@
 
 .continue-button:active{
   background-image: linear-gradient(hsl(224, 30%, 27%), hsl(224, 30%, 27%));
+  background-image: linear-gradient(hsla(256, 72%, 46%, 0.7), hsla(241, 72%, 46%, 1));
 }
 
 @media (max-width: 376px) {
